@@ -1,3 +1,4 @@
+#! https://zhuanlan.zhihu.com/p/494051978
 # Colab 远程桌面
 
 <table class="tfo-notebook-buttons" align="left">
@@ -13,7 +14,8 @@
   </td>
 </table>
 
-> 感谢 Tomohiro 大佬的代码，使得远程获取 Colab 桌面变成可能。大佬的 [主页](https://internet-of-tomohiro.netlify.app/google_colab/vnc.en.html) 以及大佬的 [Github](https://github.com/demotomohiro/remocolab)
+> - 感谢 Tomohiro 大佬的代码，使得远程获取 Colab 桌面变成可能。大佬的 [主页](https://internet-of-tomohiro.netlify.app/google_colab/vnc.en.html) 以及大佬的 [Github](https://github.com/demotomohiro/remocolab)
+> - 本文的 [Github](https://github.com/Alexbeast-CN/Colab_Desktop) 以及 [Colab](https://colab.research.google.com/drive/1-5IZlnvTXyyJKJtx3OhoNX3zthoyQvTl?usp=sharing)
 
 ## 0. 前言
 
