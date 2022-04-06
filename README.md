@@ -115,7 +115,7 @@ remocolab.setupVNC()
 ## 4. 连接 TurboVNC
 
 1. 使用 SSH 连接到 Colab
-  - 在命令行执行上方的 ssh 命令： `ssh -o UserKnownHostsFile...` 开头的那个命令
+  - 在命令行执行上方的 ssh 命令： `ssh -o UserKnownHostsFile...` 开头的那个命令。但不知道为什么这个命令在我的 Windows 电脑上无法成功运行。
   - 使用上面显示的 `colab password: `。
 
 ![](./pics/ssh.png)

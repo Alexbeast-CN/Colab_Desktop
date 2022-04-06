@@ -1,19 +1,6 @@
 #! https://zhuanlan.zhihu.com/p/494051978
 # Colab 远程桌面
 
-<table class="tfo-notebook-buttons" align="left">
-  <td>
-    <a target="_blank" href="https://colab.research.google.com/drive/1-5IZlnvTXyyJKJtx3OhoNX3zthoyQvTl?usp=sharing">
-    <img src="https://www.tensorflow.org/images/colab_logo_32px.png" />
-    Run in Google Colab</a>
-  </td>
-  <td>
-    <a target="_blank" href="https://github.com/Alexbeast-CN/Colab_Desktop">
-    <img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" />
-    View source on GitHub</a>
-  </td>
-</table>
-
 > - 感谢 Tomohiro 大佬的代码，使得远程获取 Colab 桌面变成可能。大佬的 [主页](https://internet-of-tomohiro.netlify.app/google_colab/vnc.en.html) 以及大佬的 [Github](https://github.com/demotomohiro/remocolab)
 > - 本文的 [Github](https://github.com/Alexbeast-CN/Colab_Desktop) 以及 [Colab](https://colab.research.google.com/drive/1-5IZlnvTXyyJKJtx3OhoNX3zthoyQvTl?usp=sharing)
 
@@ -127,7 +114,7 @@ remocolab.setupVNC()
 ## 4. 连接 TurboVNC
 
 1. 使用 SSH 连接到 Colab
-  - 在命令行执行上方的 ssh 命令： `ssh -o UserKnownHostsFile...` 开头的那个命令
+  - 在命令行执行上方的 ssh 命令： `ssh -o UserKnownHostsFile...` 开头的那个命令。但不知道为什么这个命令在我的 Windows 电脑上无法成功运行。
   - 使用上面显示的 `colab password: `。
 
 ![](./pics/ssh.png)
